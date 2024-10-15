@@ -1,47 +1,66 @@
 body {
-  height: 100vh;
-  display: grid;
-  align-items: center;
+  display: flex;
   justify-content: center;
+  padding: 50px;
 }
 
-main {
-  display: grid;
-  grid-template-rows: 15% 75%;
-  gap: 29px;
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  opacity: 50%;
 }
-
+table {
+  width: 100%;
+}
 table,
 th,
 td {
   border: 1px solid black;
   border-collapse: collapse;
-
-  padding: 7px;
+}
+td {
+  padding: 10px;
+  text-align: center;
 }
 
-.header {
+.interactive {
+  background-color: pink;
+}
+.grphcd {
   background-color: skyblue;
 }
 
-.absnts {
-  background-color: rgb(168, 168, 168);
-  color: gray;
-}
-thead {
-  background-color: skyblue;
-  .blank {
-    background-color: white;
-  }
-  .ten {
-    background-color: lightblue;
-  }
+.digl {
+  background-color: lightblue;
 }
 
-.low-attndc {
-  color: red;
+.stdy {
+  background-color: lightsteelblue;
+  color: rgb(109, 129, 167);
 }
 
-.avrg {
-  color: blue;
+.phtgrphy {
+  background-color: rgb(236, 236, 160);
+}
+
+.sftwt {
+  background-color: rgb(197, 226, 197);
+}
+
+.bus {
+  background-color: lightsalmon;
+}
+
+.mtngrphcs {
+  background-color: rgb(128, 150, 94);
+}
+.intmd {
+  background-color: rgb(184, 176, 176);
+  color: grey;
+}
+
+main h3 {
+  border-bottom: 1px solid black;
+  padding-bottom: 10px;
 }

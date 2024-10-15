@@ -28,6 +28,9 @@ td {
   background-color: rgb(168, 168, 168);
   color: gray;
 }
+thead {
+  grid-template-columns: 15% 60%;
+}
 
 .low-attndc {
   color: red;

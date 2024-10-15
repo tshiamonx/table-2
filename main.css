@@ -21,7 +21,7 @@ td {
 }
 
 .header {
-  background-color: rgb(135, 188, 206);
+  background-color: skyblue;
 }
 
 .absnts {
@@ -30,6 +30,13 @@ td {
 }
 thead {
   grid-template-columns: 15% 60%;
+  background-color: skyblue;
+  .blank {
+    background-color: white;
+  }
+  .ten {
+    background-color: lightblue;
+  }
 }
 
 .low-attndc {

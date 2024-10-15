@@ -1,0 +1,38 @@
+body {
+  height: 100vh;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+main {
+  display: grid;
+  grid-template-rows: 15% 75%;
+  gap: 29px;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+
+  padding: 5px;
+}
+
+.header {
+  background-color: rgb(135, 188, 206);
+}
+
+.absnts {
+  background-color: rgb(168, 168, 168);
+  color: gray;
+}
+
+.low-attndc {
+  color: red;
+}
+
+.avrg {
+  color: blue;
+}

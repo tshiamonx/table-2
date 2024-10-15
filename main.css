@@ -17,7 +17,7 @@ td {
   border: 1px solid black;
   border-collapse: collapse;
 
-  padding: 5px;
+  padding: 7px;
 }
 
 .header {
@@ -29,7 +29,6 @@ td {
   color: gray;
 }
 thead {
-  grid-template-columns: 20px 20px 20px 40px;
   background-color: skyblue;
   .blank {
     background-color: white;
